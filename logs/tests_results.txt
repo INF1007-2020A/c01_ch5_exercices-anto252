@@ -1,5 +1,5 @@
 test_factorial (__main__.TestExercice) ... FAIL
-test_prefixes (__main__.TestExercice) ... FAIL
+test_prefixes (__main__.TestExercice) ... ok
 test_summation (__main__.TestExercice) ... FAIL
 
 ======================================================================
@@ -22,22 +22,14 @@ First differing element 1:
  : Erreur dans le remplacement de caractère
 
 ======================================================================
-FAIL: test_prefixes (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 20, in test_prefixes
-    'Mauvaise identification de la parité de la longueur de la chaine'
-AssertionError: First sequence is not a list: None
-
-======================================================================
 FAIL: test_summation (__main__.TestExercice)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
   File "test_exercice.py", line 38, in test_summation
     'Retrait du mauvais caractère'
-AssertionError: 5050 != 24133 : Retrait du mauvais caractère
+AssertionError: None != 24133 : Retrait du mauvais caractère
 
 ----------------------------------------------------------------------
 Ran 3 tests in 0.001s
 
-FAILED (failures=3)
+FAILED (failures=2)
