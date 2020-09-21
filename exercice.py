@@ -12,8 +12,7 @@ def convert_to_absolute() -> float:
 
 def use_prefixes() -> List[str]:
     prefixes, suffixes = 'JKLMNOP', 'ack'
-
-    return [""]
+    return 
 
 
 def prime_integer_summation() -> int:
@@ -39,7 +38,7 @@ def main() -> None:
 
     print(f"La liste des noms générés avec les préfixes est: {use_prefixes()}")
 
-    print(f"La somme des nombres de 0 à 100 est: {prime_integer_summation()}")
+    print(f"La somme des nombres premiers entre 0 et 100 est: {prime_integer_summation()}")
 
     number = 10
     print(f"La factiorelle du nombre {number} est: {factorial(number)}")
