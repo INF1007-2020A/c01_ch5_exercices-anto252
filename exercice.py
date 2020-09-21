@@ -12,7 +12,7 @@ def convert_to_absolute() -> float:
 def use_prefixes() -> List[str]:
     prefixes, suffixes = 'JKLMNOP', 'ack'
     lookingfor = "l"
-    for c in range(0, len(prefix)):
+    for c in range(0, len(prefixesx)):
         if mystring[c] == lookingfor:
             print(str(c) + " " + mystring[c]);
     return [""]
