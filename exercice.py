@@ -17,7 +17,7 @@ def use_prefixes() -> List[str]:
 
 def prime_integer_summation() -> int:
     fact = 1
-    for i in range(1 ,):
+    for i in range(1):
         a 
     return 
 
