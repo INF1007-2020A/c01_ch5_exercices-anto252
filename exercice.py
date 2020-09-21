@@ -19,8 +19,15 @@ def use_prefixes() -> List[str]:
 
 
 def prime_integer_summation() -> int:
-    
-    return
+    for num in range(0, 100 + 1):
+        if num > 1:
+            for i in range(2, num):
+                if (num % i) == 0:
+                    break
+            else:
+                print(num)
+
+    return num
 
 
 def factorial(number: int) -> int:
