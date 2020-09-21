@@ -22,7 +22,7 @@ def prime_integer_summation() -> int:
 def factorial(number: int) -> int:
     fact = 1
     for i in range(1, number):
-        fact *= i
+        fact = i
     return fact
 
 
