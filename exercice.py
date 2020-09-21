@@ -14,7 +14,7 @@ def use_prefixes() -> List[str]:
     lookingfor = "l"
     for c in range(0, len(prefixes)):
         if prefixes[c] == lookingfor:
-            print(str(c) + " " + mystring[c]);
+            print(str(c) + " " + prefixes[c]);
     return [""]
 
 
