@@ -9,8 +9,8 @@ Traceback (most recent call last):
   File "test_exercice.py", line 33, in test_summation
     output = exercice.prime_integer_summation()
   File "/home/runner/work/c01_ch5_exercices-anto252/c01_ch5_exercices-anto252/exercice.py", line 20, in prime_integer_summation
-    for i in range():
-TypeError: range expected 1 arguments, got 0
+    for i in range(1, int ):
+TypeError: 'type' object cannot be interpreted as an integer
 
 ======================================================================
 FAIL: test_factorial (__main__.TestExercice)
