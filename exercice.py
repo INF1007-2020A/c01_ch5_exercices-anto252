@@ -11,12 +11,13 @@ def convert_to_absolute() -> float:
 
 def use_prefixes() -> List[str]:
     prefixes, suffixes = 'JKLMNOP', 'ack'
-    
+
     return [""]
 
 
 def prime_integer_summation() -> int:
-    return 0
+    
+    return 
 
 
 def factorial(number: int) -> int:
