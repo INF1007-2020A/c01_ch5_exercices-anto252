@@ -1,6 +1,16 @@
 test_factorial (__main__.TestExercice) ... FAIL
-test_prefixes (__main__.TestExercice) ... FAIL
+test_prefixes (__main__.TestExercice) ... ERROR
 test_summation (__main__.TestExercice) ... FAIL
+
+======================================================================
+ERROR: test_prefixes (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 14, in test_prefixes
+    output = exercice.use_prefixes()
+  File "/home/runner/work/c01_ch5_exercices-anto252/c01_ch5_exercices-anto252/exercice.py", line 16, in use_prefixes
+    if mystring[c] == lookingfor:
+NameError: name 'mystring' is not defined
 
 ======================================================================
 FAIL: test_factorial (__main__.TestExercice)
@@ -18,25 +28,6 @@ First differing element 0:
 + [1, 6, 40320, 3628800] : Erreur dans le remplacement de caractère
 
 ======================================================================
-FAIL: test_prefixes (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 20, in test_prefixes
-    'Mauvaise identification de la parité de la longueur de la chaine'
-AssertionError: Lists differ: [''] != ['Jack', 'Kack', 'Lack', 'Mack', 'Nack', 'Oack', 'Pack', 'Qack']
-
-First differing element 0:
-''
-'Jack'
-
-Second list contains 7 additional elements.
-First extra element 1:
-'Kack'
-
-- ['']
-+ ['Jack', 'Kack', 'Lack', 'Mack', 'Nack', 'Oack', 'Pack', 'Qack'] : Mauvaise identification de la parité de la longueur de la chaine
-
-======================================================================
 FAIL: test_summation (__main__.TestExercice)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
@@ -47,4 +38,4 @@ AssertionError: 0 != 24133 : Retrait du mauvais caractère
 ----------------------------------------------------------------------
 Ran 3 tests in 0.001s
 
-FAILED (failures=3)
+FAILED (failures=2, errors=1)
