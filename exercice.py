@@ -23,7 +23,7 @@ def factorial(number: int) -> int:
     fact = 1
     for i in range(1, number + 1):
         fact *= i
-    return 0
+    return fact
 
 
 def use_continue() -> None:
