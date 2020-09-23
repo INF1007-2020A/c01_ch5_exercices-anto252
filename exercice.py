@@ -38,10 +38,8 @@ def prime_integer_summation() -> int:
 
 
 def factorial(number: int) -> int:
-    fact = 1
-    for i in range(1, number):
-        fact = fact * i
-    return math.factorial
+
+    return math.factorial(number)
 
 
 def use_continue() -> None:
