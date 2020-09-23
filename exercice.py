@@ -41,7 +41,7 @@ def factorial(number: int) -> int:
     fact = 1
     for i in range(1, number):
         fact = fact * i
-    return fact
+    return math.facto
 
 
 def use_continue() -> None:
